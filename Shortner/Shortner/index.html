@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-W5L6M8MX');</script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>URL Shortner</title>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W5L6M8MX"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="container">
+        <i class='bx bx-link-alt'></i>
+        <h1>Url Shortner</h1>
+        <label for="originalUrl">Enter URL To Shortner：</label>
+        <input type="text" id="originalUrl" placeholder="http://example.com">
+        <div class="buttons">
+            <button id="reload-btn">Reload</button>
+            <button id="short-btn">Short It</button>
+        </div>
+        <label for="shortenedUrl">Shortened URL:</label>
+        <textarea  id="shortenedUrl" rows="3" readonly></textarea>
+    </div>
+
+    
+
+
+    <script src="index.js"></script>
+</body>
+</html>
